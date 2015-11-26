@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  JBrowser
 //
-//  Created by JW on 11/23/27 H.
+//  Created by JW on 11/26/27 H.
 //  Copyright © 27 Heisei Woo. All rights reserved.
 //
 

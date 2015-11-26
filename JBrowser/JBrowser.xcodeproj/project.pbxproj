@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE946ADF1C03385000DA2E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE946ADE1C03385000DA2E44 /* AppDelegate.swift */; };
-		BE946AE11C03385000DA2E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE946AE01C03385000DA2E44 /* ViewController.swift */; };
-		BE946AE41C03385000DA2E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE946AE21C03385000DA2E44 /* Main.storyboard */; };
-		BE946AE61C03385000DA2E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE946AE51C03385000DA2E44 /* Assets.xcassets */; };
-		BE946AE91C03385000DA2E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE946AE71C03385000DA2E44 /* LaunchScreen.storyboard */; };
+		BE37AE6C1C0745E600654BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37AE6B1C0745E600654BF6 /* AppDelegate.swift */; };
+		BE37AE6E1C0745E600654BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37AE6D1C0745E600654BF6 /* ViewController.swift */; };
+		BE37AE711C0745E600654BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE6F1C0745E600654BF6 /* Main.storyboard */; };
+		BE37AE731C0745E600654BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE721C0745E600654BF6 /* Assets.xcassets */; };
+		BE37AE761C0745E600654BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE741C0745E600654BF6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE946ADB1C03385000DA2E44 /* JBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE946ADE1C03385000DA2E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE946AE01C03385000DA2E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE946AE31C03385000DA2E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE946AE51C03385000DA2E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE946AE81C03385000DA2E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE946AEA1C03385000DA2E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE37AE681C0745E600654BF6 /* JBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE37AE6B1C0745E600654BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE37AE6D1C0745E600654BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE37AE701C0745E600654BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE37AE721C0745E600654BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE37AE751C0745E600654BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE37AE771C0745E600654BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE946AD81C03385000DA2E44 /* Frameworks */ = {
+		BE37AE651C0745E600654BF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE946AD21C03385000DA2E44 = {
+		BE37AE5F1C0745E600654BF6 = {
 			isa = PBXGroup;
 			children = (
-				BE946ADD1C03385000DA2E44 /* JBrowser */,
-				BE946ADC1C03385000DA2E44 /* Products */,
+				BE37AE6A1C0745E600654BF6 /* JBrowser */,
+				BE37AE691C0745E600654BF6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE946ADC1C03385000DA2E44 /* Products */ = {
+		BE37AE691C0745E600654BF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE946ADB1C03385000DA2E44 /* JBrowser.app */,
+				BE37AE681C0745E600654BF6 /* JBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE946ADD1C03385000DA2E44 /* JBrowser */ = {
+		BE37AE6A1C0745E600654BF6 /* JBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				BE946ADE1C03385000DA2E44 /* AppDelegate.swift */,
-				BE946AE01C03385000DA2E44 /* ViewController.swift */,
-				BE946AE21C03385000DA2E44 /* Main.storyboard */,
-				BE946AE51C03385000DA2E44 /* Assets.xcassets */,
-				BE946AE71C03385000DA2E44 /* LaunchScreen.storyboard */,
-				BE946AEA1C03385000DA2E44 /* Info.plist */,
+				BE37AE6B1C0745E600654BF6 /* AppDelegate.swift */,
+				BE37AE6D1C0745E600654BF6 /* ViewController.swift */,
+				BE37AE6F1C0745E600654BF6 /* Main.storyboard */,
+				BE37AE721C0745E600654BF6 /* Assets.xcassets */,
+				BE37AE741C0745E600654BF6 /* LaunchScreen.storyboard */,
+				BE37AE771C0745E600654BF6 /* Info.plist */,
 			);
 			path = JBrowser;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE946ADA1C03385000DA2E44 /* JBrowser */ = {
+		BE37AE671C0745E600654BF6 /* JBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE946AED1C03385000DA2E44 /* Build configuration list for PBXNativeTarget "JBrowser" */;
+			buildConfigurationList = BE37AE7A1C0745E600654BF6 /* Build configuration list for PBXNativeTarget "JBrowser" */;
 			buildPhases = (
-				BE946AD71C03385000DA2E44 /* Sources */,
-				BE946AD81C03385000DA2E44 /* Frameworks */,
-				BE946AD91C03385000DA2E44 /* Resources */,
+				BE37AE641C0745E600654BF6 /* Sources */,
+				BE37AE651C0745E600654BF6 /* Frameworks */,
+				BE37AE661C0745E600654BF6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = JBrowser;
 			productName = JBrowser;
-			productReference = BE946ADB1C03385000DA2E44 /* JBrowser.app */;
+			productReference = BE37AE681C0745E600654BF6 /* JBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE946AD31C03385000DA2E44 /* Project object */ = {
+		BE37AE601C0745E600654BF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Woo;
 				TargetAttributes = {
-					BE946ADA1C03385000DA2E44 = {
+					BE37AE671C0745E600654BF6 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
 			};
-			buildConfigurationList = BE946AD61C03385000DA2E44 /* Build configuration list for PBXProject "JBrowser" */;
+			buildConfigurationList = BE37AE631C0745E600654BF6 /* Build configuration list for PBXProject "JBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BE946AD21C03385000DA2E44;
-			productRefGroup = BE946ADC1C03385000DA2E44 /* Products */;
+			mainGroup = BE37AE5F1C0745E600654BF6;
+			productRefGroup = BE37AE691C0745E600654BF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE946ADA1C03385000DA2E44 /* JBrowser */,
+				BE37AE671C0745E600654BF6 /* JBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE946AD91C03385000DA2E44 /* Resources */ = {
+		BE37AE661C0745E600654BF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE946AE91C03385000DA2E44 /* LaunchScreen.storyboard in Resources */,
-				BE946AE61C03385000DA2E44 /* Assets.xcassets in Resources */,
-				BE946AE41C03385000DA2E44 /* Main.storyboard in Resources */,
+				BE37AE761C0745E600654BF6 /* LaunchScreen.storyboard in Resources */,
+				BE37AE731C0745E600654BF6 /* Assets.xcassets in Resources */,
+				BE37AE711C0745E600654BF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE946AD71C03385000DA2E44 /* Sources */ = {
+		BE37AE641C0745E600654BF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE946AE11C03385000DA2E44 /* ViewController.swift in Sources */,
-				BE946ADF1C03385000DA2E44 /* AppDelegate.swift in Sources */,
+				BE37AE6E1C0745E600654BF6 /* ViewController.swift in Sources */,
+				BE37AE6C1C0745E600654BF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE946AE21C03385000DA2E44 /* Main.storyboard */ = {
+		BE37AE6F1C0745E600654BF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE946AE31C03385000DA2E44 /* Base */,
+				BE37AE701C0745E600654BF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BE946AE71C03385000DA2E44 /* LaunchScreen.storyboard */ = {
+		BE37AE741C0745E600654BF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE946AE81C03385000DA2E44 /* Base */,
+				BE37AE751C0745E600654BF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE946AEB1C03385000DA2E44 /* Debug */ = {
+		BE37AE781C0745E600654BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		BE946AEC1C03385000DA2E44 /* Release */ = {
+		BE37AE791C0745E600654BF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,22 +243,24 @@
 			};
 			name = Release;
 		};
-		BE946AEE1C03385000DA2E44 /* Debug */ = {
+		BE37AE7B1C0745E600654BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Janber.JBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BE946AEF1C03385000DA2E44 /* Release */ = {
+		BE37AE7C1C0745E600654BF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Janber.JBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,24 +270,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE946AD61C03385000DA2E44 /* Build configuration list for PBXProject "JBrowser" */ = {
+		BE37AE631C0745E600654BF6 /* Build configuration list for PBXProject "JBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE946AEB1C03385000DA2E44 /* Debug */,
-				BE946AEC1C03385000DA2E44 /* Release */,
+				BE37AE781C0745E600654BF6 /* Debug */,
+				BE37AE791C0745E600654BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE946AED1C03385000DA2E44 /* Build configuration list for PBXNativeTarget "JBrowser" */ = {
+		BE37AE7A1C0745E600654BF6 /* Build configuration list for PBXNativeTarget "JBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE946AEE1C03385000DA2E44 /* Debug */,
-				BE946AEF1C03385000DA2E44 /* Release */,
+				BE37AE7B1C0745E600654BF6 /* Debug */,
+				BE37AE7C1C0745E600654BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE946AD31C03385000DA2E44 /* Project object */;
+	rootObject = BE37AE601C0745E600654BF6 /* Project object */;
 }
