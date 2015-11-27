@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UIWebViewDelegate {
 
 
     @IBOutlet weak var webView: UIWebView!
@@ -16,9 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var backButton: UIBarButtonItem!
     @IBOutlet weak var reloadButton: UIBarButtonItem!
     @IBOutlet weak var stopButton: UIBarButtonItem!
-  
-    
-    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+
     //homepage
     let homeUrl = "http://www.yahoo.co.jp"
     
@@ -41,6 +40,27 @@ class ViewController: UIViewController {
         webView.loadRequest(urlRequest)
     }
     
+    
+    // MARK: - UIWebViewDelegate
+    func webViewDidStartLoad(webView: UIWebView) {
+        activityIndicator.alpha = 1
+        activityIndicator.startAnimating()
+        backButton.enabled = false
+        reloadButton.enabled = false
+        stopButton.enabled = true
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activityIndicator.alpha = 0
+        activityIndicator.stopAnimating()
+        backButton.enabled = webView.canGoBack
+        reloadButton.enabled = true
+        stopButton.enabled = false
+    }
+    
+    
+    
+    // MARK: - IBAction
     @IBAction func backButtonTapped(sender: UIBarButtonItem) {
         webView.goBack()
     }

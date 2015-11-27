@@ -55,6 +55,21 @@
                                             <action selector="backButtonTapped:" destination="BYZ-38-t0r" id="Ggy-6E-u15"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LZv-YZ-zMi"/>
+                                    <barButtonItem style="plain" id="NNo-5T-ZKj">
+                                        <view key="customView" contentMode="scaleToFill" id="laR-EG-1ey">
+                                            <rect key="frame" x="283" y="5.5" width="33" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Xqz-d8-Txi">
+                                                    <rect key="frame" x="6" y="7" width="20" height="20"/>
+                                                    <animations/>
+                                                </activityIndicatorView>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="F7i-w1-n2g"/>
                                     <barButtonItem systemItem="refresh" id="wDp-cA-0TD">
                                         <connections>
@@ -72,6 +87,9 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="wjg-gy-f5J"/>
+                                </connections>
                             </webView>
                         </subviews>
                         <animations/>
@@ -97,6 +115,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="Xqz-d8-Txi" id="mNa-cC-w9z"/>
                         <outlet property="backButton" destination="XZL-gn-5UJ" id="P8u-vw-qON"/>
                         <outlet property="reloadButton" destination="wDp-cA-0TD" id="BbR-wE-iuB"/>
                         <outlet property="searchBar" destination="1xt-kq-v7d" id="bhQ-S3-ol2"/>
