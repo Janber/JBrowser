@@ -50,18 +50,18 @@
                                     <constraint firstAttribute="height" constant="44" id="9vX-Ym-yNY"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Item" id="XZL-gn-5UJ">
+                                    <barButtonItem image="button-back.png" id="XZL-gn-5UJ">
                                         <connections>
                                             <action selector="backButtonTapped:" destination="BYZ-38-t0r" id="Ggy-6E-u15"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="F7i-w1-n2g"/>
-                                    <barButtonItem title="Item" id="wDp-cA-0TD">
+                                    <barButtonItem systemItem="refresh" id="wDp-cA-0TD">
                                         <connections>
                                             <action selector="reloadButtonTapped:" destination="BYZ-38-t0r" id="hrf-La-p1h"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Item" id="OFo-YZ-BeQ">
+                                    <barButtonItem systemItem="stop" id="OFo-YZ-BeQ">
                                         <connections>
                                             <action selector="stopButtonTapped:" destination="BYZ-38-t0r" id="o06-BD-p9V"/>
                                         </connections>
@@ -108,4 +108,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="button-back.png" width="44" height="44"/>
+    </resources>
 </document>

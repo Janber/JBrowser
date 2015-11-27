@@ -12,6 +12,7 @@
 		BE37AE711C0745E600654BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE6F1C0745E600654BF6 /* Main.storyboard */; };
 		BE37AE731C0745E600654BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE721C0745E600654BF6 /* Assets.xcassets */; };
 		BE37AE761C0745E600654BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37AE741C0745E600654BF6 /* LaunchScreen.storyboard */; };
+		BEFB6EDC1C0888F700ABA1FC /* button-back.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFB6EDB1C0888F700ABA1FC /* button-back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE37AE721C0745E600654BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE37AE751C0745E600654BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE37AE771C0745E600654BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFB6EDB1C0888F700ABA1FC /* button-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-back.png"; path = "Resouces/button-back.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BE37AE6A1C0745E600654BF6 /* JBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				BEFB6ED81C08863100ABA1FC /* Resources */,
 				BE37AE6B1C0745E600654BF6 /* AppDelegate.swift */,
 				BE37AE6D1C0745E600654BF6 /* ViewController.swift */,
 				BE37AE6F1C0745E600654BF6 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				BE37AE771C0745E600654BF6 /* Info.plist */,
 			);
 			path = JBrowser;
+			sourceTree = "<group>";
+		};
+		BEFB6ED81C08863100ABA1FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEFB6EDB1C0888F700ABA1FC /* button-back.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFB6EDC1C0888F700ABA1FC /* button-back.png in Resources */,
 				BE37AE761C0745E600654BF6 /* LaunchScreen.storyboard in Resources */,
 				BE37AE731C0745E600654BF6 /* Assets.xcassets in Resources */,
 				BE37AE711C0745E600654BF6 /* Main.storyboard in Resources */,
@@ -286,6 +298,7 @@
 				BE37AE7C1C0745E600654BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
