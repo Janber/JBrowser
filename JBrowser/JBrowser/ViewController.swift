@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UIWebViewDelegate {
+class ViewController: UIViewController,UIWebViewDelegate,UISearchBarDelegate {
 
 
     @IBOutlet weak var webView: UIWebView!
@@ -27,7 +27,8 @@ class ViewController: UIViewController,UIWebViewDelegate {
     "https?://.*\\.yahoo\\.com"
     ]
     
-    
+    // URL to use in the search function
+    let searchUrl = "http://search.yahoo.co.jp/search?p="
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,9 +65,6 @@ class ViewController: UIViewController,UIWebViewDelegate {
         reloadButton.enabled = true
         stopButton.enabled = false
     }
-    
-    
-    
     
     // MARK: - UIWebViewDelegate
     func webViewDidStartLoad(webView: UIWebView) {
@@ -121,8 +119,14 @@ class ViewController: UIViewController,UIWebViewDelegate {
         return true
     }
     
-    
-    
+    // MARK: - UISearchBarDelegate
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        if let searchText = searchBar.text{
+            let url = searchUrl + searchText.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
+            openUrl(url)
+            searchBar.resignFirstResponder()
+        }
+    }
     
     // MARK: - IBAction
     @IBAction func backButtonTapped(sender: UIBarButtonItem) {
